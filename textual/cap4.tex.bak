@@ -1,0 +1,106 @@
+\chapter{Sistemas Computacionais}\label{Estruturas}
+\todo[inline,size=\small,color=red]{Fazer texto introdutório de \ref{Estruturas}}%
+\section{Sistemas centralizados, descentralizados e distribuídos}
+\par
+De acordo com \cite{GAL03}, em um ambiente centralizado ou \emph{Sistema Centralizado} (SC), um único computador acomoda todos os dados de uma organização, e os usuários acessam esses dados pro meio de terminais, que são dispositivos que possibilite a entrada e visualização de dados, através de uma ligação de comunicação. 
+\par
+Ainda segundo \cite{GAL03}, no ambiente descentralizado, os usuários cuidam de seus sistemas e não há troca de eletrônica de recursos ou informações entre esses sistemas separados. A descentralização fornece ao usuário ou a departamentos independência computacional, ou seja, o controle do sistema fica mais próximo do usuário final.
+\par
+ Os departamentos não precisam atuar em conformidade com o que determina um grupo central e podem alocar recursos e definir prioridade de maneira compatível com suas necessidades. Essa independência pode, contudo resultar na duplicação dos dados levando a inconsistências dentro da organização.
+\par
+Um \emph{Sistema Distribuído} (SD) consiste de computadores independentes conectados aos outros. A diferença básica entre um sistema distribuído e uma rede de computadores é que em um ambiente distribuído os recursos são disponibilizados para o usuário de forma transparente. 
+\par
+Isso significa que, teoricamente, os usuários não tomam conhecimento da utilização desse tipo de sistema, ou seja, do ponto de vista do usuário um sistema distribuído parece um sistema único. Já em um ambiente de rede, os usuários precisam identificar explicitamente o que desejam \citep{GAL03}.
+\par
+De forma que, a estrutura implementada por qualquer um desses sistemas implica no modelo de organização e de como serão tratadas as comunicações. Simplificadamente e análoga, podemos identificar um SC como a administração de uma cidade. 
+\par 
+Nesse exemplo, o prefeito decide as principais decisões sobre os planejamentos da mesma, já um sistema descentralizado poderia ser exemplificado, neste contexto governamental, como países de um continente, onde cada país tem sua própria hierarquia política e administrativa, e exceto por relações internacionais especiais não costumam trocar informações entre si. 
+\par
+Um SD poderia ser comparado aos estados de uma nação, onde existem diversas hierarquias, porém todas estão interligadas para manter a política de governo e manter todos os setores do país.
+
+\subsection{Sistemas embarcados}
+\par
+De acordo com \cite{BAR99} e \cite{CAR03}, citados por \cite{BEQ09}, um \emph{\acl{SE}} é uma combinação de \textit{software} e \textit{hardware} que é projetada para desempenhar uma tarefa específica, ou seja, consiste em um sistema micro processado que suporta uma determinada aplicação. 
+Por apresentar essas caracteristicas, um \ac{SE} se diferencia de um computador pessoal, o qual é projetado para inúmeros tipos de aplicações. Devido ao baixo custo tecnológico atual, esses dispositivos estão ficando cada vez mais presentes no cotidiano das pessoas.
+\par
+Considerando o fato que os \ac{SE} são de fácil acesso para o desenvolvimento de projetos e pesquisas como a que fomenta este trabalho, deve ser um elemento analisado, juntamente com o uso de uma plataforma onde ambos podem ser partes integrantes do trabalho proposto.
+\par
+Segundo \cite{LEE01}, citado por \cite{BEQ09}, \ac{SE} é um software especial que possui como foco principal a interação com o meio físico em que está inserido. Por esse motivo, ele tem por necessidade adquirir algumas propriedades desse meio, como exemplo, tempo de execução, consome de energia, desempenho, entre outros.
+\par
+Geralmente está associado a um nível mais baixo do sistema, justamente por causa dessa interação. A complexidade e o tamanho de aplicações embarcadas tendem a crescer rapidamente, e consequentemente as suas características tendem a ser mais realçadas.
+\par
+De acordo com \cite{TAU05}, citado por \cite{BEQ09}, o desenvolvimento de um software embarcado é diferente do desenvolvimento de um software tradicional. O desenvolvedor precisa preocupar-se com os recursos oferecidos pelo sistema embarcado (por exemplo, memória), diferentemente de um software tradicional, onde o sistema tem inúmeros recursos computacionais.
+
+\subsubsection{Projeto orientado a plataforma}
+\par
+Projeto baseado em Plataforma é um novo paradigma de concepção de \ac{SE} em um único chip, que é orientado a integração e ao reuso. Conceituado por \cite{VIN01}, plataforma não tem uma única definição, mas de maneira geral, pode ser entendida como uma abstração que cobre diversos possíveis refinamentos em baixo nível.
+\par
+O uso dessa técnica, dentro do projeto proposto, possibilitaria que os esforços de pesquisa e desenvolvimento estejam voltados para a implementação do sistema de tomada de decisão, focando adjuntamente nos problemas e meios que o viabiliza, deixando os fluxos de projetos ligados a concepção de hardware especifico para a função de \acl{SE}.
+
+\todo[inline,size=\small,color=red]{Abordar sistemas operacionais embarcados?}%
+
+\section{Algoritmos de tomada de decisão}
+\par
+De acordo com \cite{BRO05} a definição de algoritmos trata-se de uma serie ordenada de passos não ambíguos e executáveis. Onde a estrutura deve ser bem estabelecida com termos da ordem na qual são executados.
+\par
+É enfatizado por \cite{BRO05}, a diferença entre um algoritmo e sua representação, que é análoga à diferença entre um conto e o livro a que pertence. O conto é, por natureza, abstrato, ou conceitual já o livro é uma representação física do conto. 
+\par 
+Se o livro for traduzido para outro idiota se não o seu de origem, ou se for reeditado em um formato diferente, apenas a representação do conto irá mudar, embora o conto propriamente dito permaneça o mesmo. Da mesma forma, o algoritmo é abstrato e distinto de suas representações, ou seja, um único algoritmo pode ser representado de diversas formas.
+\par
+Os algoritmos são um dos alicerces da computação e o estudo destes sobre o pronto de vista da análise e otimização, cria a subdivisão em diversas subáreas especificas, de acordo com a natureza de resolução ou aplicação que as reúne. 
+\par
+Diante deste trabalho o enfoque de algoritmos para toma de decisão pode ser dividido em duas categorias, centralizada e distribuída.
+\subsection{Algoritmos distribuídos}
+\par
+Algoritmos distribuídos constituem uma classe de soluções que podem ser implementadas tanto para execução em arquiteturas com memória distribuída, como um conjunto de computadores ou uma rede local, quanto em arquiteturas multiprocessadas com memória compartilhada. 
+\par
+A utilização destes algoritmos acontece em uma variedade de aplicações científicas, de controle de tempo real, de processamento distribuído de informações, de telecomunicações, de sistemas tolerantes a falhas, entre outros, considerando-se a variedade de aplicações, a quantidade de algoritmos também é grande. 
+\par 
+Esta classe de algoritmos, podem ser empregada, por exemplo, para casos onde é necessário eleger um processo com características especiais em um grupo (eleição de líder) ou quando é preciso garantir acesso exclusivo a recursos compartilhados (exclusão mútua). 
+\par
+No contexto deste trabalho, os algoritmos de interesse são aqueles para difusão e coleta de informações, as quais serão analisadas e, a partir desta análise, será tomada uma decisão que impacte nos parâmetros QEE. É importante destacar que o contexto de execução destes algoritmos considera um ambiente distribuído. Como mencionado, a variedade de algoritmos é grande, aqueles que serão estudados e implementados em um primeiro momento, realizam a difusão e coleta de informações baseados em um grafo. Nesse caso, os nós do grafo são os envolvidos na computação (processos ou processadores) e as arestas são os canais de ligação entre eles.
+\par
+Nos algoritmos de difusão o objetivo é enviar uma informação de um determinado nó a todos os outros nós de uma rede, considerando-se que o nó emissor conhece apenas alguns nós da rede (vizinhos), que conhecem outros, formando uma topologia em grafo não totalmente conectado, e que todo nó tem ao menos um vizinho \citep{GEY12}. 
+\par
+Ao contrário destes, algoritmos de coleta são aqueles onde os nós recebem requisições de informação e geram requisições a seus filhos (se existirem), concentram as informações recebidas e respondem ao nó requisitante, que, sendo o primeiro, irá concentrar todas as informações, processá-las e, se necessário, difundi-las \citep{GEY12}. Mais detalhes sobre algoritmos de difusão e coleta em grafos e outros algoritmos distribuídos podem ser encontrados em \cite{AND00}, \cite{BAR96}, \cite{COU01}, \cite{LYN96} e \cite{TAN01}.
+\subsection{Algoritmos centralizados}
+\par
+Assim como os algoritmos distribuídos, existe uma quantidade enorme de algoritmos que poderiam ser aplicados também no contexto de um sistema centralizado. Dentre as técnicas encontradas no, estado da arte para apoio a toma de decisão, destacam-se os algoritmos genéticos e árvores de decisão com a utilização da análise multicritério em ambos os casos, principalmente com algoritmo genéticos.
+\par
+Segundo \cite{REZ05}, os Algoritmos que induzem a Árvores de Decisão pertencem à família de algoritmos TDIDT. Uma árvore de decisão é uma estrutura de dados definida recursivamente como um nó folha que corresponde a uma classe ou um nó de decisão que contém um teste sobre algum atributo. Para cada resultado do teste existe uma aresta para um subárvore e cada subárvore tem a mesma estrutura que a árvore.
+\par
+Os algoritmos genéticos são uma subcategoria de uma subárea de computação, denominada computação evolutiva. Algoritmos genéticos são programas evolutivos baseados na teoria da seleção natural e na hereditariedade. Ou seja, partem do pressuposto que, em uma dada população, indivíduos com boas características genéticas possuem maiores chances de sobrevivência levando ao cenário da produção de indivíduos cada vez mais aptos. \par
+Como resultado, os indivíduos menos aptos tenderão a desaparecer, logo os algoritmos genéticos favorecem a combinação dos indivíduos mais aptos, ou seja, os possíveis candidatos (mais promissores) para a solução de um dado problema \citep{REZ05}.
+\par
+A análise multicritério surgiu como instrumento de apoio à decisão, é aplicada na análise comparativa de projetos alternativos ou medidas heterogêneas. Através desta técnica podem ser obtidos em conta diversos critérios, em simultâneo, na analise de uma situação complexa.
+\par
+Maiores esclarecimentos sobre árvores de decisão e análise multicritério, respectivamente, consultar \citep{REZ05} no capítulo 5 e capítulo 9.
+\section{Modelagem matemática e simulação de sistemas}
+\par
+A Modelagem Matemática é definida por \cite{AGU07} como a área do conhecimento que estuda maneiras de desenvolver e implementar modelos matemáticos de sistemas reais, no qual existem diferentes técnicas para chegar a este resultado. Um modelo matemático de um sistema real é um análogo matemático, que representa algumas características observadas em tal sistema.
+\par
+Segundo \cite{AGU07}, existem muitos tipos de modelos matemáticos, porém os mais abordados (comuns) na literatura são os modelos estáticos, dinâmicos, discretos, contínuos, autômatos, não autômatos, monovariáveis, multivariais, determinísticos, estocásticos, paramétricos e não paramétricos.
+\par
+Uma vez obtido o modelo matemático do sistema, é necessário verificar se o comportamento de tal modelo é equivalente ao do sistema real e quais são seus limites de validade.
+\par
+Em relação à simulação de sistemas, em essência, em um contexto computacional, consiste em um método empregado para estudar o desempenho de um sistema por meio da formulação de um modelo matemático, o qual deve produzir de maneira, mais fiel possível, as características do sistema original. Manipulando o modelo e analisando os resultados, podem-se concluir como diversos fatores afetarão o desempenho do sistema \citep{HER63}.
+\par
+Considerando que toda simulação requer a construção de um modelo no qual serão feitos os experimentos e um modelo matemático estudado através da simulação é denominado modelo de simulação \cite{SAL89}, citado por \cite{GAV03}. De acordo com \cite{BAR70}, citado por \cite{GAV03}, um modelo de simulação tem as seguintes propriedades:
+\begin{itemize}
+\item Intenção de representar a totalidade ou parte de um sistema;
+\item Possibilidade de ser executado ou manipulado;
+\item O tempo ou um contador de repetições é uma de suas variáveis;
+\item Proposta de auxiliar no entendimento do sistema, o que significa um ou mais dos seguintes itens:
+\begin{itemize}
+\item É uma descrição (parcial) do sistema objeto;
+\item Seu uso tenta explicar o comportamento passado do sistema objeto;
+\item Seu uso tenta predizer o comportamento futuro do sistema objeto;
+\item Seu uso tenta ensinar a teoria existente pela qual o sistema objeto pode ser entendido.
+\end{itemize}
+\end{itemize}
+
+\todo[inline,color=red]{Refazer o fechamento deste capítulo}
+\par
+Neste capitulo foram abordados, em caráter de referencial teórico, diversos assuntos dentro da área da computação, principalmente relacionados a subárea de rede de computadores, organização de sistemas incluindo, particularmente, os sistemas embarcados, os algoritmos e técnicas voltados ao apoio à tomada de decisão e à simulação de sistemas computacionais, onde esta última subárea inclui adjuntamente ligação com a modelagem matemática.
+\par
+Todos esses conceitos são relevantes a este trabalho, principalmente para a construção do sistema proposto, levando em consideração os elementos físicos que integrarão o sistema (na rede de computadores), a forma em que esses elementos irão se comunicar (arquitetura do sistema centralizado,distribuído e descentralizado) e o(s) algoritmo(s) que será(ão) implementados dentro do sistema objetivando a tomada de decisão, contando ainda com a modelagem e simulação do sistema em conjunto com a implementação do mesmo.

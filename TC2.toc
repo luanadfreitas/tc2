@@ -1,0 +1,37 @@
+\select@language {brazilian}
+\select@language {english}
+\select@language {brazilian}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{9}{chapter.1}
+\contentsline {chapter}{\numberline {2}Qualidade da Energia El\IeC {\'e}trica}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}QEE e EE}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}Normas Brasileiras}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Dist\IeC {\'u}rbios El\IeC {\'e}tromagneticos}{16}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Transit\IeC {\'o}rios}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Varia\IeC {\c c}\IeC {\~o}es de tens\IeC {\~a}o}{18}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Afundamento de Tens\IeC {\~a}o}{20}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Eleva\IeC {\c c}\IeC {\~a}o de Tens\IeC {\~a}o ou Salto de Tens\IeC {\~a}o}{21}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Interrup\IeC {\c c}\IeC {\~a}o}{22}{subsubsection.2.3.2.3}
+\contentsline {subsection}{\numberline {2.3.3}Distor\IeC {\c c}\IeC {\~o}es da Forma de Onda e Harm\IeC {\^o}nicos}{23}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}Interharm\IeC {\^o}nicos, Ru\IeC {\'\i }dos e N\IeC {\'\i }vel Corrente Cont\IeC {\'\i }nua (CC)}{24}{subsubsection.2.3.3.1}
+\contentsline {subsubsection}{\numberline {2.3.3.2}Flutua\IeC {\c c}\IeC {\~o}es ou Oscila\IeC {\c c}\IeC {\~o}es de Tens\IeC {\~a}o}{25}{subsubsection.2.3.3.2}
+\contentsline {subsection}{\numberline {2.3.4}Desequil\IeC {\'\i }brios de Tens\IeC {\~a}o}{26}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Varia\IeC {\c c}\IeC {\~o}es na Frequ\IeC {\^e}ncia do Sistema El\IeC {\'e}trico}{26}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Quantifica\IeC {\c c}\IeC {\~a}o de QEE (Causas, Origens e Efeitos)}{28}{section.2.4}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lise de Sinais}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}Amostragem de dados}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}M\IeC {\'e}todos baseados em an\IeC {\'a}lise de sinais}{32}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}M\IeC {\'e}todo baseado no c\IeC {\'a}lculo do Valor \ac {RMS}}{33}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}M\IeC {\'e}todo baseado na aplica\IeC {\c c}\IeC {\~a}o da Transformada Discreta de Fourier}{33}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}M\IeC {\'e}todo baseado na aplica\IeC {\c c}\IeC {\~a}o da \acl {TW}}{35}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Filtragem e decomposi\IeC {\c c}\IeC {\~a}o de sinais}{36}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Sistemas Computacionais}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}Sistemas centralizados, descentralizados e distribu\IeC {\'\i }dos}{40}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Sistemas embarcados}{41}{subsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.1.1}Projeto orientado a plataforma}{42}{subsubsection.4.1.1.1}
+\contentsline {section}{\numberline {4.2}Algoritmos de tomada de decis\IeC {\~a}o}{42}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Algoritmos distribu\IeC {\'\i }dos}{43}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Algoritmos centralizados}{44}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Modelagem matem\IeC {\'a}tica e simula\IeC {\c c}\IeC {\~a}o de sistemas}{45}{section.4.3}
+\contentsline {chapter}{GLOSS\IeC {\'A}RIO}{47}{chapter*.53}
+\contentsline {chapter}{Refer{\^e}ncias\markboth {\MakeUppercase {Refer{\^e}ncias}}{\MakeUppercase {Refer{\^e}ncias}}}{52}{chapter*.55}
+\contentsline {chapter}{Todo list}{58}{chapter*.56}
